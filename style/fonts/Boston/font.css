@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Boston';
+  src: url('Boston.eot');
+  src: url('Boston.woff2') format('woff2'),
+       url('Boston.woff') format('woff'),
+       url('Boston.ttf') format('truetype'),
+       url('Boston.svg#Boston') format('svg'),
+       url('Boston.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

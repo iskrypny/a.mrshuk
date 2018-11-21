@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'A4Flightreg';
+  src: url('A4Flightreg.eot');
+  src: url('A4Flightreg.woff2') format('woff2'),
+       url('A4Flightreg.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akzentica4FLight';
+  src: url('Akzentica4FLight.woff') format('woff'),
+       url('Akzentica4FLight.ttf') format('truetype'),
+       url('Akzentica4FLight.svg#Akzentica4FLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

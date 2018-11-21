@@ -1,0 +1,220 @@
+/* 			FONTS 		 */
+
+/* 			Boston 		 */
+@font-face {
+  font-family: 'Boston';
+  src: url('fonts/Boston/Boston.eot');
+  src: url('fonts/Boston/Boston.woff2') format('woff2'),
+       url('fonts/Boston/Boston.woff') format('woff'),
+       url('fonts/Boston/Boston.ttf') format('truetype'),
+       url('fonts/Boston/Boston.svg#Boston') format('svg'),
+       url('fonts/Boston/Boston.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 			Akzentica 4F regular 		 */
+@font-face {
+  font-family: 'A4Freg'; 
+  src: url('fonts/A4Freg/A4Freg.eot');
+  src: url('fonts/A4Freg/A4Freg.woff2') format('woff2'),
+       url('fonts/A4Freg/A4Freg.woff') format('woff'),
+       url('fonts/A4Freg/A4Freg.ttf') format('truetype'),
+       url('fonts/A4Freg/A4Freg.svg#A4Freg') format('svg'),
+       url('fonts/A4Freg/A4Freg.eot?#iefix') format('embedded-opentype');
+}
+
+/* 			Akzentica 4F medium  		 */
+@font-face {
+  font-family: 'A4Fmediumreg'; 
+  src: url('fonts/A4Fmediumreg/A4Fmediumreg.eot');
+  src: url('fonts/A4Fmediumreg/A4Fmediumreg.woff2') format('woff2'),
+       url('fonts/A4Fmediumreg/A4Fmediumreg.woff') format('woff'),
+       url('fonts/A4Fmediumreg/A4Fmediumreg.ttf') format('truetype'),
+       url('fonts/A4Fmediumreg/A4Fmediumreg.svg#A4Fmediumreg') format('svg'),
+       url('fonts/A4Fmediumreg/A4Fmediumreg.eot?#iefix') format('embedded-opentype');
+}
+
+/* 			Akzentica 4F light		 */
+@font-face {
+  font-family: 'A4Flightreg'; 
+  src: url('fonts/A4Flightreg/A4Flightreg.eot');
+  src: url('fonts/A4Flightreg/A4Flightreg.woff2') format('woff2'),
+       url('fonts/A4Flightreg/A4Flightreg.woff') format('woff'),
+       url('fonts/A4Flightreg/A4Flightreg.ttf') format('truetype'),
+       url('fonts/A4Flightreg/A4Flightreg.svg#A4Flightreg') format('svg'),
+       url('fonts/A4Flightreg/A4Flightreg.eot?#iefix') format('embedded-opentype');
+}
+
+/* 			Akzentica 4F light italic	 */
+@font-face {
+  font-family: 'A4Flightital'; 
+  src: url('fonts/A4Flightital/A4Flightital.eot');
+  src: url('fonts/A4Flightital/A4Flightital.woff2') format('woff2'),
+       url('fonts/A4Flightital/A4Flightital.woff') format('woff'),
+       url('fonts/A4Flightital/A4Flightital.ttf') format('truetype'),
+       url('fonts/A4Flightital/A4Flightital.svg#A4Flightital') format('svg'),
+       url('fonts/A4Flightital/A4Flightital.eot?#iefix') format('embedded-opentype');
+}
+
+#home {
+	background: url(../img/bg-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 100vh;
+}
+#photo {
+	background: url(../img/bg-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 100vh;
+}
+#video {
+	background: url(../img/bg-3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 100vh;
+}
+#contact {
+	background: url(../img/bg-4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 100vh;
+}
+
+.container {
+	width: 1005px;
+}
+
+/* 			HEADER 		 */
+
+.menu {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.menu li {
+	display: inline-block;
+	margin-right: 24px;
+	border-top: 4px solid transparent;
+}
+
+.menu li:last-Child {
+	margin-right: 0;
+}
+
+.menu li:hover, #logo a:hover {
+	border-top: 4px solid #cc3333;
+	transition: 1s ease;
+}
+
+.menu a {
+	display: block;
+	font-family: 'A4Flightreg';
+	font-size: 30px; 
+	text-decoration: none;
+	color: #eee;
+}
+
+.menu a:first-letter {
+	text-transform: uppercase;
+}
+
+#logo {
+	line-height: 2.8em;
+	text-align: center;
+}
+
+#logo a {
+	border-top: 4px solid transparent;
+	font-family: 'Boston';
+	font-size: 30px;
+	text-decoration: none;
+	text-shadow: #000 2px 2px 15px;
+	color: #eee;
+}
+
+/* 			Home 		 */
+
+.main_content h1 {
+	max-width: 360px;
+	margin: 44vh auto 0 auto;
+	font-family: 'A4Flightital'; 
+	font-size: 60px;
+	letter-spacing: 0.01em;
+	text-align: center;
+	color: #eee;
+}
+
+.main_content span {
+	letter-spacing: 0.16em;
+}
+
+/* 			Photo, Video 		 */
+
+#photo h1, #video h1{
+	margin: 44vh auto 0 auto;
+	font-family: 'A4Flightital';
+	font-size: 42px;
+	text-align: center;
+	color: #eee;
+}
+
+#photo a, #video a {
+	display: block;
+	margin: 0 auto;
+	border-radius: 20px;
+	max-width: 185px;
+	padding: 5px 0;
+	font-family: 'A4Freg';
+	font-size: 30px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #eee;
+	background-color: #c9463f;
+	transition: 1s ease;
+}
+
+#photo a:hover, #video a:hover {
+	color: #c9463f;
+	background-color: #eee;
+	transition: 1s ease;
+}
+
+/* 			Contact		 */
+
+.contact_item {
+	margin-top: 44vh;
+	max-width: 200px;
+} 
+
+.contact_item h2 {
+	font-family: 'A4Flightital';
+	font-size: 42px;
+	text-align: center;
+	color: #fff;
+}
+
+.contact_item a {
+	display: block;
+	border-radius: 20px;
+	padding: 15px 0 8px 0;
+	font-family: 'A4Fmediumreg'; 
+	font-size: 30px;
+	line-height: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #eee;
+	background-color: #c9463f;
+}
+

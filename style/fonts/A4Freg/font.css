@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'A4Freg';
+  src: url('A4Freg.eot');
+  src: url('A4Freg.woff2') format('woff2'),
+       url('A4Freg.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akzentica4F';
+  src: url('Akzentica4F.woff') format('woff'),
+       url('Akzentica4F.ttf') format('truetype'),
+       url('Akzentica4F.svg#Akzentica4F') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

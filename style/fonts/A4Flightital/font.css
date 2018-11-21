@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'A4Flightital';
+  src: url('A4Flightital.eot');
+  src: url('A4Flightital.woff2') format('woff2'),
+       url('A4Flightital.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akzentica4FLight-Italic';
+  src: url('Akzentica4FLight-Italic.woff') format('woff'),
+       url('Akzentica4FLight-Italic.ttf') format('truetype'),
+       url('Akzentica4FLight-Italic.svg#Akzentica4FLight-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
